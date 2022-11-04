@@ -61,3 +61,29 @@ body{
     height: 100%;
     width: auto;
 }
+
+.content{
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
+}
+
+.text{
+    height: 20vh;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 100px 50px 50px 50px;
+}
+
+.text p{
+    margin-bottom: 15px;
+}
+
+.fields{
+    padding: 5px 10px;
+    height: 250px;
+    width: auto;
+    background-color: white;
+    margin-bottom: 10px;
+}
