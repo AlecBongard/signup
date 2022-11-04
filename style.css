@@ -87,3 +87,17 @@ body{
     background-color: white;
     margin-bottom: 10px;
 }
+
+.fields{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row{
+    display: flex;
+}
+
+.field{
+    display: flex;
+    flex-direction: column;
+}
