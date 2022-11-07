@@ -86,6 +86,7 @@ body{
     width: auto;
     background-color: white;
     margin-bottom: 10px;
+    box-shadow: 0px 2px 2px lightgrey;
 }
 
 .fields{
@@ -100,4 +101,32 @@ body{
 .field{
     display: flex;
     flex-direction: column;
+    margin: 12px;
+}
+
+
+.field input{
+    height: 25px;
+    width: 250px;
+    outline: 0;
+    border: 1px grey solid;
+    border-radius: 3px;
+}
+
+.field label{
+    font-size: 10px;
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    margin-bottom: 3px;
+}
+
+.field input:focus{
+    border: 0;
+    outline: 2px solid rgb(88, 88, 182);
+    border-radius: 3px;
+    box-shadow: 2px 2px 2px darkslategrey;
+}
+
+.fields header{
+    margin: 15px 15px 5px 15px;
 }
